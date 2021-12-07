@@ -1,1 +1,1 @@
-GRavando 1º arruivo - Repositório Remoto.
+Gravando 1º arquivo - Repositório Remoto.
