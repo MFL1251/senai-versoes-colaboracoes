@@ -1,0 +1,7 @@
+Empresa: Savinis
+
+Sistema de Cadastro de Peças
+
+1 - Permitir apenas o cadastro de peças acima de 100 gramas;
+2 - o número de peças de apenas 10 unidades, se superior, o usuário receberá a mensagem de lista completa;
+3 - validar o noem da peça - se o nome da peça tem mais de 3 caracteres.
