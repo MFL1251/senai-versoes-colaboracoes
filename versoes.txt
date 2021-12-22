@@ -1,0 +1,73 @@
+Ações neste arquivo:
+
+1 - modificação nº 1 - para publicação no GITHUB - UC07 - Atividade nº 1.
+
+    Ações e comandos utilizados até este momento, para a atividade:
+
+    Na unidade c:, cria-se na pasta do usuário faria, pasta documentos a pasta _git.
+    Dentro dela é criada a pasta _git e dentro desta a pasta: senai-versoes-colaboracoes
+    
+    A seguir, usa-se o botão direito do mouse, para selecionar a opção: Git Bash.
+    É criada a pasta: .git dentro da pasta: senai-versoes-colaboracoes.
+
+    Usando o comando pwd, temos como resposta o seguinte: /c/Users/faria/Documents/_git/senai-versoes-colaboracoes
+    Este caminho corresponde ao repositório local do GIT ativo no computador do usuário faria.
+
+    O próximo passo, foi a criação deste arquivo, dentro da pasta: senai-versões-colaboracoes, da seguinte forma:
+        1 - com o botão direito do mouse, seleciona a opção: novo - documento de texto, nomeando-o versoes Formato: txt.
+        2 - Em seguida, foi feito todo detalhamento dos passos seguidos até o momento com a criação da pasta, a ação para
+            criar o repositório Git local e este arquivo.
+
+2 - Modificação nº 2:
+    Caminho para o arquivo README.mb no reposítório remoto GitHub:
+    https://github.com/MFL1251/senai-versoes-colaboracoes
+
+3 - Modificação nº 3:
+    Esta arquivo será publicado no GitHub, no repositório senai-versoes-colaboracoes como ação final, neste momento da 
+    UC 07 -Versinamento - Atividade 1.
+
+4 - Para conseguir publicar no GitHub - repositório remoto, será necessário fazer a ligação do repositório local com 
+    o repositório remoto.
+
+    Informações base para esta ação:
+
+    Repositório local - Unidade c:/:  /c/Users/faria/Documents/_git/senai-versoes-colaboracoes
+
+    Repositório Remoto - GitHub: https://github.com/MFL1251/senai-versoes-colaboracoes
+
+    A seguir será elencado a sequência de comandos do GIT para conectar os repositórios loca e remoto:
+   
+    Adicionar o arquivo versoes.txt no staging
+    Comando: git add .
+
+    Checar se o arquivo se encontra no staging
+    Comando: git status
+ 
+    Salvar o arquivo no repositório local
+    Comando: git commit - u "Salvanddo o arquivo versoes.txt no repositório local, para publicar, após conexão no repositório GitHub Remoto"
+
+    No repositório GitHub já criado acima citado.
+
+    Conectar o repositório local com o repositório remoto
+    Comando: git remote add origin https://github.com/MFL1251/senai-versoes-colaboracoes
+   
+    Transferindo o arquivo para o repositório remoto
+    Comando: git push - u origin main
+
+
+5 - Houve erro no upload ou, pelo menos, a não localização do arquivo versoes.txt na branch master, onde havia uma conexão anterior.
+  
+    Causa: houve um cadastramento da branch master, feito inadivertidamente, em prática anterior.
+
+    Ação corretiva a ser aplicada: será deletada a branch master e três aruivos existentes de práticas anteriores.
+
+    Preparação: será criado novamente o arquivo README.mb, com observações do seu processo de criação dentro.
+
+    Finalização da UC 07 - Versionamento, Atividade 1:
+    Será repetido os passos para a conexão do repositório local com o remoto, desta vez utilizando, somente a branch main existente.
+ 
+	Mesmo ciente que, num projeto real, pode-se ser utilizado mais de uma branch, a fim de fazer testes e/ou desenvolvimento numa 
+	branch secundária (isolada ou não pelo .gitignore), mas que neste momento a opção será de praticar e alinhar no branch 
+	principal.
+
+
